@@ -125,12 +125,20 @@
                 </section>
 
                 <section>
-                    <!--Responsive Image for resolution switching
-                        images/max-winter-L.png
-                        images/max-winter-S.png 404w
-                        images/max-winter-M.png 920w
-                        images/max-winter-L.png 1280w
-                    -->
+                    <figure>
+                        <picture>
+                            <source srcset=" images/max-winter-S.png" media="(max-width:404w)">
+                            <source srcset="images/max-winter-M.png" media="(max-width:920w)">
+                            <source srcset="images/max-winter-L.png" media="(min-width:921w)">
+                            <img src="images/max-winter-L.png" alt="Portrait of Max Winter">
+                        </picture>
+
+                        <figcaption>
+                            Max Winter
+                        </figcaption>
+                    </figure>
+                   
+                    
                         <div>
                         Max Winter
                         <dl>
